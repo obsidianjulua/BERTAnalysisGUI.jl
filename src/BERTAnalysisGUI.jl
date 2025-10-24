@@ -1,4 +1,4 @@
-module EngineGUI
+module BERTAnalysisGUI
 include("EngineT.jl")
 
 using Blink
@@ -17,7 +17,7 @@ end
 const state = AppState()
 
 """
-Launch the EngineT GUI application
+Launch the BERT Analysis GUI application
 """
 function launch_gui(model_name::String="bert-base-uncased")
     println("📦 Loading model: $model_name")

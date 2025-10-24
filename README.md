@@ -1,6 +1,6 @@
-# EngineGUI.jl
+# BERTAnalysisGUI.jl
 
-A simple GUI interface for BERT text analysis using Julia, Blink, and Transformers.
+A GUI interface for BERT-based text analysis using Julia, Blink, and Transformers.
 
 ## Features
 
@@ -14,23 +14,23 @@ A simple GUI interface for BERT text analysis using Julia, Blink, and Transforme
 
 ```julia
 using Pkg
-Pkg.add("EngineGUI")
+Pkg.add("BERTAnalysisGUI")
 ```
 
 Or install from source:
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/obsidianjulua/EngineGUI.jl")
+Pkg.add(url="https://github.com/obsidianjulua/BERTAnalysisGUI.jl")
 ```
 
 ## Usage
 
 ```julia
-using EngineGUI
+using BERTAnalysisGUI
 
 # Launch the GUI with default BERT model
-w = EngineGUI.launch_gui()
+w = BERTAnalysisGUI.launch_gui()
 
 # Or specify a different model
 launch_gui("bert-base-uncased")

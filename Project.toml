@@ -1,4 +1,4 @@
-name = "EngineGUI"
+name = "BERTAnalysisGUI"
 uuid = "e774e4bd-d316-4fdb-a598-27f0a282f788"
 version = "0.1.0"
 authors = ["grim <archjulialua@gmail.com>"]
